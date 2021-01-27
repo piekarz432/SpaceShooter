@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Image/enemyBlack1.png</file>
+        <file>Image/Ship (1).png</file>
+        <file>Image/laserBlue02.png</file>
+        <file>Image/meteorBrown_big4.png</file>
+        <file>Image/Nebula Aqua-Pink.png</file>
+    </qresource>
+    <qresource prefix="/music">
+        <file>Music/Battle-in-the-Stars.mp3</file>
+        <file>Music/gun_fire.wav</file>
+    </qresource>
+    <qresource prefix="/score">
+        <file>Score/score.txt</file>
+    </qresource>
+</RCC>

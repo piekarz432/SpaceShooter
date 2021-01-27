@@ -1,0 +1,9 @@
+Karol,10
+Bartek,20
+Czarek,30
+Testowy,26
+xd,19
+Karol Test,36
+Nowy uzytkownik,70,0
+,14
+,0

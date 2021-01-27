@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Achievement</class>
+ <widget class="QDialog" name="Achievement">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>370</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>400</width>
+    <height>370</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>400</width>
+    <height>370</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>70</y>
+     <width>321</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="editTriggers">
+    <set>QAbstractItemView::NoEditTriggers</set>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="textElideMode">
+    <enum>Qt::ElideRight</enum>
+   </property>
+   <item>
+    <property name="text">
+     <string>Zniszcz 5 asteroid</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>E:/SpaceShooter/SpaceShooter/Image/achievement.png</normaloff>E:/SpaceShooter/SpaceShooter/Image/achievement.png</iconset>
+    </property>
+    <property name="flags">
+     <set>ItemIsSelectable|ItemIsUserCheckable|ItemIsEnabled</set>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Zniszcz 10 asteroid</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>E:/SpaceShooter/SpaceShooter/Image/achievement.png</normaloff>E:/SpaceShooter/SpaceShooter/Image/achievement.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Zniszcz 20 asteroid</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>E:/SpaceShooter/SpaceShooter/Image/achievement.png</normaloff>E:/SpaceShooter/SpaceShooter/Image/achievement.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Zniszcz 50 asteroid</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>E:/SpaceShooter/SpaceShooter/Image/achievement.png</normaloff>E:/SpaceShooter/SpaceShooter/Image/achievement.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Uzyskaj 100 punktów</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>E:/SpaceShooter/SpaceShooter/Image/achievement.png</normaloff>E:/SpaceShooter/SpaceShooter/Image/achievement.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Uzyskaj 200 punktów</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>E:/SpaceShooter/SpaceShooter/Image/achievement.png</normaloff>E:/SpaceShooter/SpaceShooter/Image/achievement.png</iconset>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>10</y>
+     <width>301</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>30</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Achievement </string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
